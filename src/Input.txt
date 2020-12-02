@@ -1,0 +1,7 @@
+Species 2
+BeadsPerSpecies 1 2
+Diffusivity 10 100
+MinDomainSize 100 200
+Cutoff 5 15
+System Data.Initial
+End
