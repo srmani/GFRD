@@ -26,7 +26,7 @@ GFRD::GFRD(std::string fname)
   /*if(!configfile)
     throw error_fn("Input file missing in the location");*/
   
-  while(block)
+  while(block)   //!configfile.eof()- can replace with this
     {
       block=0;
       configfile>>Temp;
@@ -103,7 +103,7 @@ GFRD::GFRD(std::string fname)
 
 GFRD::~GFRD()
 {
-  /* delete BeadsPerSpecies;
+  delete BeadsPerSpecies;
   delete Diffusivity;
   delete MinDomainSize;
   delete Cutoff;
@@ -113,7 +113,7 @@ GFRD::~GFRD()
   delete x;
   delete type;
   delete molecule;
-  delete q;*/
+  delete q;
 }
 
 void GFRD::ReadInitialStructure(std::string fname)

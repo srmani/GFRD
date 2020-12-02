@@ -1,7 +1,7 @@
 Species 2
 BeadsPerSpecies 1 2
-Diffusivity 10 100
-MinDomainSize 100 200
-Cutoff 5 15
+Diffusivity 10.12 0.100
+MinDomainSize 100.311 3.424
+Cutoff 512.1 0.15
 System Data.Initial
 End
